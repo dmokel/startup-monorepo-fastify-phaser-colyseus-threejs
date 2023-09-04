@@ -1,0 +1,14 @@
+{
+  "name": "@startup-monorepo-fastify-phaser-colyseus-threejs/ex-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "monorepo example app",
+  "author": "David Mokel",
+  "license": "MIT",
+  "scripts": {
+    "debug": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@startup-monorepo-fastify-phaser-colyseus-threejs/utils": "workspace:^0.1.0"
+  }
+}

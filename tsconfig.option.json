@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true,
+    // 这几项配置与Typescript的Project References，tsc的--build模式有关，
+    // 具体你可以查阅typescript文档，包括但不限于：
+    // https://www.typescriptlang.org/tsconfig#composite
+    // https://www.typescriptlang.org/tsconfig#incremental
+    // https://www.typescriptlang.org/docs/handbook/project-references.html
+
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    // 这几项配置（当然还有其他相关配置）与生成js文件、d.ts文件，sourcemap文件有关，
+    // 具体你可以查阅typescript文档，包括但不限于：
+    // https://www.typescriptlang.org/tsconfig#declaration
+    // https://www.typescriptlang.org/tsconfig#emitDeclarationOnly
+    // https://www.typescriptlang.org/tsconfig#noEmitOnError
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // 这几项配置与CommonJS和ESModule之间的互操作性有关，
+    // 具体你可以查阅typescript文档，包括但不限于：
+    // https://www.typescriptlang.org/tsconfig#esModuleInterop
+    // 我们也将会在后续的视频中演示依赖于此类配置的pkg，因此这里就不展开了
+
+    "resolveJsonModule": true,
+    "strict": true
+    //  这几项配置的作用比较显而易见，具体可查阅文档：
+    // https://www.typescriptlang.org/tsconfig#resolveJsonModule
+    // https://www.typescriptlang.org/tsconfig#strict
+  }
+}

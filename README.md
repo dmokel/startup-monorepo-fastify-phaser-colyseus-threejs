@@ -1,4 +1,4 @@
-# Startup about monorepo, Phaser, colyseus and threejs
+# Startup about monorepo, fastify, Phaser, colyseus and threejs
 
 ## 概述
 
@@ -26,6 +26,8 @@ Bilibili 主页：https://space.bilibili.com/487361851
 
 我会将每一期视频的文稿适当简化后作为文档，与每期视频中的代码一同更新到该仓库。
 
+- [monorepo 项目创建与基础演示](./docs/01monorepo项目创建与基础演示.md)
+
 ## 与我联系
 
-通过邮箱 moqqll.china@gmail.com 与我取得联系。
+通过邮箱 moqqll.china@gmail.com，或在平台私信我，与我取得联系。

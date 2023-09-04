@@ -1,0 +1,9 @@
+{
+  "name": "@startup-monorepo-fastify-phaser-colyseus-threejs/utils",
+  "private": true,
+  "version": "0.1.0",
+  "description": "local utils package",
+  "author": "David Mokel",
+  "license": "MIT",
+  "main": "./src/index.ts"
+}

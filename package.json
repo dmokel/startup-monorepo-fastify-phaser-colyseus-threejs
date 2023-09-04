@@ -1,0 +1,13 @@
+{
+  "name": "@startup-monorepo-fastify-phaser-colyseus-threejs/root",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A repository about starting from scratch for monorepo, fastify, Phaser, colyseus, and threejs.",
+  "author": "David Mokel",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
