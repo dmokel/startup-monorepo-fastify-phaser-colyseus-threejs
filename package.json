@@ -6,6 +6,7 @@
   "author": "David Mokel",
   "license": "MIT",
   "scripts": {
+    "prepare": "husky install",
     "__eslit__comment__": "查阅eslint文档 https://eslint.org/docs/latest/use/command-line-interface 了解cli工具的options",
     "lint": "eslint ./ --ext .ts,.js,.json --max-warnings=0",
     "__prettier__comment": "查阅prettier文档 https://prettier.io/docs/en/cli 了解cli工具的options, 查询链接https://prettier.io/docs/en/watching-files, https://www.npmjs.com/package/onchange 获取onchange文档",
@@ -19,6 +20,7 @@
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
     "onchange": "^7.1.0",
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
