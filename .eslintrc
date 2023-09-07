@@ -9,13 +9,28 @@
   // eslint:recommended ：该配置集是 ESLint 内置的“推荐”，它打开一组小的、合理的规则，用于检查众所周知的最佳实践
   // @typescript-eslint/recommended：该配置集是typescript-eslint的推荐，它与eslint:recommended相似，但它启用了特定于ts的规则
   // @typescript-eslint/eslint-recommended ：该配置集禁用 eslint:recommended 配置集中已经由 typeScript 处理的规则，防止eslint和typescript之间的冲突。
+  // prettier（即eslint-config-prettier）关闭所有可能干扰 Prettier 规则的 ESLint 规则，确保将其放在最后，这样它有机会覆盖其他配置集
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/eslint-recommended"
+    "plugin:@typescript-eslint/eslint-recommended",
+    "prettier"
   ],
 
   // 该配置项指示要加载的插件，这里
   // @typescript-eslint 插件使得我们能够在我们的存储库中使用typescript-eslint包定义的规则集。
-  "plugins": ["@typescript-eslint"]
+  // prettier插件（即eslint-plugin-prettier）将 Prettier 规则转换为 ESLint 规则
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
+
+  "rules": {
+    "prettier/prettier": "error", // 打开prettier插件提供的规则，该插件从 ESLint 内运行 Prettier
+
+    // 关闭这两个 ESLint 核心规则，这两个规则和prettier插件一起使用会出现问题，具体可参阅
+    // https://github.com/prettier/eslint-plugin-prettier/blob/master/README.md#arrow-body-style-and-prefer-arrow-callback-issue
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off"
+  }
 }
