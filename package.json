@@ -14,6 +14,8 @@
     "format-watch": "onchange -d 1000 '**/*' -- prettier --config .prettierrc --write {{changed}}"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@types/node": "^20.5.9",
     "@typescript-eslint/eslint-plugin": "^6.6.0",
     "@typescript-eslint/parser": "^6.6.0",
