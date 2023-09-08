@@ -27,6 +27,7 @@ Bilibili 主页：https://space.bilibili.com/487361851
 我会将每一期视频的文稿适当简化后作为文档，与每期视频中的代码一同更新到该仓库。
 
 - [monorepo 项目创建与基础演示](./docs/01monorepo项目创建与基础演示.md)
+- [nodejs/ts项目的基础工程化配置](./docs/02nodejsts项目的基础工程化配置.md)
 
 ## 与我联系
 
