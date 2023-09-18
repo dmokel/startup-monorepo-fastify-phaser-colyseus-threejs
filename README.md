@@ -28,6 +28,7 @@ Bilibili 主页：https://space.bilibili.com/487361851
 
 - [monorepo 项目创建与基础演示](./docs/01monorepo项目创建与基础演示.md)
 - [nodejs/ts项目的基础工程化配置](./docs/02nodejsts项目的基础工程化配置.md)
+- [使用local pkg的基于fastify的简单web服务：判断以太坊地址是否为具有某个函数的合约地址](./docs/03基于fastify的nodejsweb服务.md)
 
 ## 与我联系
 

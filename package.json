@@ -12,7 +12,9 @@
     "lint": "eslint ./ --ext .ts,.js,.json --max-warnings=0",
     "__prettier__comment": "查阅prettier文档 https://prettier.io/docs/en/cli 了解cli工具的options, 查询链接https://prettier.io/docs/en/watching-files, https://www.npmjs.com/package/onchange 获取onchange文档",
     "format": "prettier --config .prettierrc '.' --write",
-    "format-watch": "onchange -d 1000 '**/*' -- prettier --config .prettierrc --write {{changed}}"
+    "format-watch": "onchange -d 1000 '**/*' -- prettier --config .prettierrc --write {{changed}}",
+    "address-discrimination": "pnpm --filter @startup-monorepo-fastify-phaser-colyseus-threejs/address-discrimination",
+    "address-check": "pnpm --filter @startup-monorepo-fastify-phaser-colyseus-threejs/address-check"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",

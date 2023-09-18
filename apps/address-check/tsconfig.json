@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.option.json",
+  // 设置ts的reference配置选项，在这里我们将当前app所依赖的pkg填写进去
+  // 需要注意的是：
+  // 1、path所指定的路径为文件夹时，该文件夹需要直接包含一个tsconfig.json文件
+  "references": [
+    {
+      "path": "../../packages/address-discrimination"
+    }
+  ],
+  "compilerOptions": {
+    "declarationMap": false,
+    "emitDeclarationOnly": false,
+    "incremental": false,
+    "composite": false,
+    "declaration": false,
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}

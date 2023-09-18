@@ -1,0 +1,13 @@
+{
+  "name": "@startup-monorepo-fastify-phaser-colyseus-threejs/address-discrimination",
+  "private": true,
+  "version": "0.1.0",
+  "description": "address discrimination package",
+  "author": "David Mokel",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "dependencies": {
+    "viem": "^1.10.14",
+    "web3": "^4.1.1"
+  }
+}

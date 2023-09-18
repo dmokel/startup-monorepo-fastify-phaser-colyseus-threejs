@@ -1,0 +1,20 @@
+{
+  "name": "@startup-monorepo-fastify-phaser-colyseus-threejs/address-check",
+  "private": true,
+  "version": "0.1.0",
+  "description": "address check application",
+  "author": "David Mokel",
+  "license": "MIT",
+  "scripts": {
+    "debug": "ts-node ./src/app.ts",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc --build",
+    "build": "pnpm run clean; pnpm run compile",
+    "start": "node ./dist/app.js"
+  },
+  "dependencies": {
+    "@startup-monorepo-fastify-phaser-colyseus-threejs/address-discrimination": "workspace:^0.1.0",
+    "fastify": "^4.23.2",
+    "viem": "^1.10.14"
+  }
+}
